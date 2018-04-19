@@ -1,0 +1,16 @@
+<Questsystem Version="1.0" encoding="UTF-8">
+<Quest id="0">
+<Beschreibung>Das ist die erste Antwort</Beschreibung>
+<Sonstiges>null</Sonstiges>
+<Dialog id="1">
+</Gesprächsteilnehmer="4">
+<Beschreibung>An dem Gespräch nehmen 4 Teilnehmer teil, die sich gegenseitig Geschichten erzählne</Beschreibung>
+<FragenContainer="1">
+<Frage="0">Das ist die erste Frage</Frage>
+</FragenContainer>
+<AntwortContainer="1">
+<Antwort="0">Das ist die erste Antwort</Antwort>
+</AntwortContainer>
+</Dialog>
+</Quest>
+</Questsystem>

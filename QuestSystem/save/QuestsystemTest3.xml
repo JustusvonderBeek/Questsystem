@@ -1,0 +1,32 @@
+<Questsystem Version="0.1" encoding="UTF-8">
+<Quest id="0" Dialoge="2">
+<Beschreibung>Das ist die neue Beschreibung</Beschreibung>
+<Sonstiges>Keine Angabe</Sonstiges>
+<Dialog id="0">
+<Gesprächsteilnehmer Anzahl="2"/>
+<Beschreibung>An der ersten Questreihe nehmen 2 NPCs teil, die sich über irgendwas komisches Unterhalten</Beschreibung>
+<FragenContainer Anzahl="4">
+<Frage Nr="0">Eine andere Antwort um das hier zu testen</Frage>
+<Frage Nr="1">Die neue und bearbeitete Frage.</Frage>
+<Frage Nr="2">Das ist die neue Frage, die eingefügt wurde</Frage>
+<Frage Nr="3">Das ist die eine unterschiedliche Frage</Frage>
+</FragenContainer>
+<AntwortContainer Anzahl="2">
+<Antwort Nr="0">Inhalt hier ist irrelevant</Antwort>
+<Antwort Nr="1">Hier genauso</Antwort>
+</AntwortContainer>
+</Dialog>
+<Dialog id="1">
+<Gesprächsteilnehmer Anzahl="2"/>
+<Beschreibung>Die zweite Dialogreihe ist ganz anders</Beschreibung>
+<FragenContainer Anzahl="2">
+<Frage Nr="0">Denn hier werden richtige Fragen gestellt</Frage>
+<Frage Nr="1">Und hier wird nicht aufgepasst, ob der Inhalt passt oder nicht.</Frage>
+</FragenContainer>
+<AntwortContainer Anzahl="2">
+<Antwort Nr="0">Cool, hier schon mal keinen Fehler gefunden</Antwort>
+<Antwort Nr="1">Und du so?</Antwort>
+</AntwortContainer>
+</Dialog>
+</Quest>
+</Questsystem>
