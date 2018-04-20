@@ -212,8 +212,10 @@ public class ActionHandler implements ActionListener, ChangeListener {
 			if ((int) getSpinnerWithName("sDialogauswahl").getValue() >= quest.getDialoge().length) {
 				getSpinnerWithName("sDialogauswahl").setValue(quest.getDialoge().length-1);
 				dialogID = (int) getSpinnerWithName("sDialogauswahl").getValue();
+				aktualisiereDialog();
 			} else {
 				dialogID = (int) getSpinnerWithName("sDialogauswahl").getValue();
+				aktualisiereDialog();
 			}
 		}
 	}
