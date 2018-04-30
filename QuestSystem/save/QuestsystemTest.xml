@@ -3,12 +3,12 @@
 <Beschreibung>Ich teste hier gerade, ob das hier geht. gehts?</Beschreibung>
 <Sonstiges>Keine Angabe</Sonstiges>
 <Dialog id="0">
-<GesprÃ¤chsteilnehmer Anzahl="2"/>
-<Beschreibung>An der ersten Questreihe nehmen 2 NPCs teil, die sich Ã¼ber irgendwas komisches Unterhalten</Beschreibung>
+<Gesprächsteilnehmer Anzahl="2"/>
+<Beschreibung>An der ersten Questreihe nehmen 2 NPCs teil, die sich über irgendwas komisches Unterhalten</Beschreibung>
 <FragenContainer Anzahl="4">
 <Frage Nr="0">Eine andere Antwort um das hier zu testen</Frage>
 <Frage Nr="1">Die neue und bearbeitete Frage.</Frage>
-<Frage Nr="2">Das ist die neue Frage, die eingefÃ¼gt wurde</Frage>
+<Frage Nr="2">Das ist die neue Frage, die eingefügt wurde</Frage>
 <Frage Nr="3">Das ist die eine unterschiedliche Frage</Frage>
 </FragenContainer>
 <AntwortContainer Anzahl="2">
@@ -17,7 +17,7 @@
 </AntwortContainer>
 </Dialog>
 <Dialog id="1">
-<GesprÃ¤chsteilnehmer Anzahl="2"/>
+<Gesprächsteilnehmer Anzahl="2"/>
 <Beschreibung>Die zweite Dialogreihe ist ganz anders</Beschreibung>
 <FragenContainer Anzahl="2">
 <Frage Nr="0">Denn hier werden richtige Fragen gestellt</Frage>
