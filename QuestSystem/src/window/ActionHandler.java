@@ -54,10 +54,10 @@ public class ActionHandler implements ActionListener, ChangeListener {
 		System.out.println("Alle Dateien:\n" + tmp);
 		printer = new FileOutput();
 		fc = new JFileChooser();
-		fc.setCurrentDirectory(new File("save/"));
+		fc.setCurrentDirectory(folder);
 		fc.showOpenDialog(null);
 		filepath = fc.getSelectedFile();
-		System.out.println("Debug: " + filepath.getName() + " " + fc.getName());
+		System.out.println("Debug: " + filepath.getName() + " " + filepath.getAbsolutePath());
 		filepathS = filepath.getName();
 		initalize();
 		aktualisiereQuest();
@@ -65,7 +65,7 @@ public class ActionHandler implements ActionListener, ChangeListener {
 	
 	private void initalize() {
 		FileReader reader = new FileReader();
-		quest = reader.ReadFiles("QuestsystemTest");
+		quest = reader.ReadFiles(filepath.getAbsolutePath());
 		if (getSpinnerWithName("sDialogauswahl") != null && (int) getSpinnerWithName("sDialogauswahl").getValue() <= quest.getDialoge().length-1) {
 			dialogID = (int) getSpinnerWithName("sDialogauswahl").getValue();
 		} else {
@@ -176,8 +176,7 @@ public class ActionHandler implements ActionListener, ChangeListener {
 		if (e.getSource() == getButtonWithName("btnAuswählen")) {
 			fc.showOpenDialog(null);
 			filepath = fc.getSelectedFile();
-			filepathS = filepath.getName();
-			filepathS = filepathS.replace(".xml", "");
+			filepathS = filepath.getAbsolutePath();
 			System.out.println("Debug: " + filepathS);
 			quest = new FileReader().ReadFiles(filepathS);
 			aktualisiereQuest();

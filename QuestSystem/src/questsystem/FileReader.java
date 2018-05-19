@@ -13,9 +13,9 @@ import org.xml.sax.SAXException;
 
 public class FileReader {
 	
-	public static Quest ReadFiles (String fileName) {
+	public Quest ReadFiles (String filename) {
 		try {
-			File searchedFile = new File("save/" + fileName + ".xml");
+			File searchedFile = new File(filename);
 			SAXParserFactory factory = SAXParserFactory.newInstance();
 	        SAXParser saxParser = factory.newSAXParser();
 	        UserHandler uh = new UserHandler();
